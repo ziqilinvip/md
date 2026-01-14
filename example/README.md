@@ -15,8 +15,8 @@ npx wrangler dev worker.js
 
 ```bash
 cd example
-pnpm i
-pnpm dev
+npm install --registry=https://registry.npmmirror.com
+npm run dev
 ```
 
 部署：
